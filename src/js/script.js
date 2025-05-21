@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const bookBtnHome = document.getElementById("bookBtnHome");
     const body = document.body;
     const nav = document.getElementById("mainNav");
+    const homeSection = document.getElementById("home");
+    const hexDivider = document.querySelector(".hex-divider");
 
     let darkMode = false;
 
@@ -21,6 +23,21 @@ document.addEventListener("DOMContentLoaded", function () {
       nav.classList.toggle("navbar-light", !darkMode);
       nav.classList.toggle("bg-dark", darkMode);
       nav.classList.toggle("navbar-dark", darkMode);
+
+      // смена цвета контейнера home
+      if (darkMode) {
+    homeSection.style.backgroundColor = "#2b2b2b";
+  } else {
+    homeSection.style.backgroundColor = "#f0f0f0";
+  }
+
+  /* скрытие разделителя в темной теме */
+
+  if (darkMode) {
+      hexDivider.style.display = 'none';
+    } else {
+      hexDivider.style.display = '';
+    }
 
       // Меняем стили кнопок
       themeBtn.textContent = darkMode ? "Changer en clair" : "Changer de theme";
