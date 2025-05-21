@@ -1,0 +1,104 @@
+
+body{
+  font-family: 'Karla', sans-serif !important;
+}
+
+h1{
+ /* font-family: 'Pirata One', sans-serif !important;*/
+ font-size: 2.5rem;
+}
+
+.text-purple {
+  color: purple !important;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+body.bg-light .nav-link:hover{
+  color: purple;
+  text-decoration: underline;
+}
+/* Тёмная тема */
+body.dark-theme {
+  background-color: #212529;
+  color: white;
+}
+
+body.dark-theme .navbar {
+  background-color: #343a40 !important;
+}
+
+body.dark-theme .nav-link {
+  color: #ddd !important;
+}
+
+body.dark-theme .nav-link:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+body.dark-theme .btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+
+body.dark-theme .btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #212529;
+}
+
+/* section id="home" */
+
+#home {
+ /* background-color: #f0f0f0; /* немного темнее bg-light (#f8f9fa) */
+  min-height: 350px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+#home .col-md-6:first-child {
+  padding-right: 30px;
+  padding-top: 10px; /* поднимаем текст */
+}
+
+#home h1 {
+  background: linear-gradient(to right, #800080, #dda0dd); /* градиент сиреневого цвета */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#home p {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+#home .btn {
+  margin-right: 10px;
+}
+
+/* изображение занимает всю высоту секции */
+#home img {
+  max-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Декоративный разделитель */
+.svg-divider {
+  line-height: 0;
+  overflow: hidden;
+  padding: 20px 0px;
+  filter: drop-shadow(2px 2px 0.55rem hsl(0, 0%, 12%));
+}
+
+.svg-divider .svg-shape {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
