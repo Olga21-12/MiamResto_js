@@ -262,3 +262,44 @@ body.dark-theme .btn-outline-secondary:hover {
   color: purple;
 }
 
+/* галерея */
+#gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.arrow-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.arrow-btn img {
+  width: 40px; /* или другой нужный размер */
+  height: auto;
+}
+
+
+.gallery-wrapper {
+  width: 1240px;
+  overflow: hidden;
+}
+
+.gallery-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 10px;
+}
+
+.gallery-track img {
+  width: 400px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+
