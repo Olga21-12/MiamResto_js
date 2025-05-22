@@ -23,7 +23,7 @@ body.bg-light .nav-link:hover{
   text-decoration: underline;
 }
 /* Тёмная тема */
-body.dark-theme #home {
+body.dark-theme #home{
   background-color: #212529;
   color: white;
 }
@@ -53,7 +53,7 @@ body.dark-theme .btn-outline-secondary:hover {
 
 /* section id="home" */
 
-#home {
+#home{
   background-color: #f0f0f0; /* немного темнее bg-light (#f8f9fa) */
   height: 100vh;
   padding: 20px 40px;
@@ -94,7 +94,7 @@ body.dark-theme .btn-outline-secondary:hover {
   
 }
 
-.hex-divider{
+.hex-divider, .hex-divider2, .hex-divider3{
   background-color: #f0f0f0;
   background-image: url("data:image/svg+xml,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 675 134' style='enable-background:new 0 0 675 134;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .s%7Bfill:%23f8f9fa;%7D %3C/style%3E %3Cg%3E %3Cg%3E %3Cpolygon class='s' points='63.3,54.7 63.3,42.5 52.8,36.4 42.2,42.5 42.2,54.7 52.8,60.8 '/%3E %3Cpolygon class='s' points='31.7,36.3 31.7,24.1 21.1,18 10.6,24.1 10.6,36.3 21.1,42.4 '/%3E %3Cpolygon class='s' points='84.4,18.3 84.4,6.1 73.9,0 63.3,6.1 63.3,18.3 73.9,24.4 '/%3E %3Cpolygon class='s' points='147.7,18.3 147.7,6.1 137.1,0 126.6,6.1 126.6,18.3 137.1,24.4 '/%3E %3Cpolygon class='s' points='232.1,18.3 232.1,6.1 221.5,0 211,6.1 211,18.3 221.5,24.4 '/%3E %3Cpolygon class='s' points='284.8,36.3 284.8,24.1 274.2,18 263.7,24.1 263.7,36.3 274.2,42.4 '/%3E %3Cpolygon class='s' points='379.7,18.3 379.7,6.1 369.2,0 358.6,6.1 358.6,18.3 369.2,24.4 '/%3E %3Cpolygon class='s' points='506.3,18.3 506.3,6.1 495.7,0 485.2,6.1 485.2,18.3 495.7,24.4 '/%3E %3Cpolygon class='s' points='675,18.3 675,6.1 664.5,0 653.9,6.1 653.9,18.3 664.5,24.4 '/%3E %3Cpolygon class='s' points='643.4,36.3 643.4,24.1 632.8,18 622.3,24.1 622.3,36.3 632.8,42.4 '/%3E %3Cpolygon class='s' points='559,36.3 559,24.1 548.4,18 537.9,24.1 537.9,36.3 548.4,42.4 '/%3E %3Cpolygon class='s' points='147.7,54.7 158.2,60.8 168.8,54.7 168.8,42.5 158.2,36.4 147.7,42.5 '/%3E %3Cpolygon class='s' points='232.1,54.7 232.1,42.5 221.5,36.4 211,42.5 211,54.7 221.5,60.8 '/%3E %3Cpolygon class='s' points='316.4,54.7 316.4,42.5 305.9,36.4 295.3,42.5 295.3,54.6 284.8,60.6 284.8,72.8 295.3,78.9 305.9,72.8 305.9,60.8 '/%3E %3Cpolygon class='s' points='358.6,54.7 358.6,42.5 348.1,36.4 337.5,42.5 337.5,54.7 348.1,60.8 '/%3E %3Cpolygon class='s' points='411.3,36.4 400.8,42.5 400.8,54.7 411.3,60.8 421.9,54.7 421.9,42.5 421.9,42.4 432.4,36.3 432.4,24.1 421.9,18 411.3,24.1 411.3,36.3 '/%3E %3Cpolygon class='s' points='506.3,54.7 516.8,60.8 527.4,54.7 527.4,42.5 516.8,36.4 506.3,42.5 '/%3E %3Cpolygon class='s' points='675,54.7 675,42.5 664.5,36.4 653.9,42.5 653.9,54.7 664.5,60.8 '/%3E %3Cpath class='s' d='M664.5,133.7l-10.5-6.1v-12.2l10.5-6.1V97.2l10.5-6.1V78.8l-10.5-6.1L654,78.8V91l0,0l-10.5,6.1v12.2l0,0 l-10.5,6.1l0,0l-10.5-6.1l0,0V97.1L611.7,91V78.8l-10.5-6.1l0,0v-12l10.5-6.1V42.4l-10.5-6.1l-10.5,6.1v12.1l-10.5,6.1v12.2l0,0 l-10.5,6.1V91l10.5,6.1l10.5-6.1l10.5,6.1v12.2l0,0l-10.5,6.1v12.2l0,0l-10.5,6.1l0,0l-10.5-6.1v-12.2l-10.5-6.1V97.2l-10.5-6.1 l-10.5,6.1l0,0l-10.5-6.1l0,0V78.9l-10.5-6.1l-10.5,6.1v12.2l0,0l-10.5,6.1v12.2l0,0l-10.5,6.1l0,0l-10.5-6.1l-10.5,6.1v12.2l0,0 l-10.5,6.1l0,0l-10.5-6.1l0,0v-12.2l10.6-6.1V97.2L443,91.1l-10.5,6.1l0,0L422,91.1l0,0V78.9l-10.5-6.1L401,78.9v12.2l10.5,6.1 l0,0v12.2l0,0l-10.5,6.1v12.2l-10.5,6.1l0,0l-10.5-6.1l0,0v-12.2l0,0l10.5-6.1V97.2L380,91.1V78.9l0,0l10.5-6.1V60.6L380,54.5 l-10.5,6.1v12.2l0,0L359,78.9v12.2l10.5,6.1l0,0v12.2l0,0l-10.5,6.1l0,0l-10.5-6.1l0,0V97.2L338,91.1V78.9l-11-6.1l-10.5,6.1v12.2 l10.5,6.1l0,0v12.2l-10.5,6.1v12.2l-10.5,6.1l0,0l-10.5-6.1l0,0v-12.2l10.5-6.1V97.2l-10.5-6.1L285,97.2v12.2l0,0l-10.5,6.1l0,0 l-10.5-6.1l-10.5,6.1l0,0l-10.5-6.1l0,0V97.2l-10.5-6.1l0,0V78.9L222,72.8l-11,6.1v12.2l-10.5,6.1v12.2l10.5,6.1l0,0v12.2 l-10.5,6.1l0,0l-10.5-6.1v-12.2l-10.5-6.1l0,0V97.2L169,91.1V78.9l-10.5-6.1L148,78.9v12.2l10.5,6.1v12.2l0,0l-10.5,6.1v12.2l0,0 l-10.5,6.1l0,0l-10.5-6.1v-12l10.5-6.1V97.4L127,91.3l-11,6.1l0,0l-10.5-6.1V79.1L94.9,73l-10.5,6.1v12.2l10.5,6.1v12.2l10.5,6.1 v12l0,0l-10.5,6.1l0,0l-10.5-6.1v-12.2l-10.5-6.1l-10.5,6.1l0,0l-10.5-6.1v-12l10.5-6.1V79.1L52.8,73l-10.5,6.1v12.2l-10.5,6.1v12 l-10.5,6.1v12.2l0,0l-10.5,6.1l0,0L0,127.6v6.4h675v-6.4L664.5,133.7z M527.4,127.6l-10.5,6.1l-10.5-6.1v-12.2l10.5-6.1l10.5,6.1 V127.6z'/%3E %3Cpolygon class='s' points='10.6,60.6 10.6,72.8 21.1,78.9 31.7,72.8 31.7,60.6 21.1,54.6 '/%3E %3Cpolygon class='s' points='116,72.8 126.6,78.9 137.1,72.8 137.1,60.6 126.6,54.6 126.6,42.5 116,36.4 105.5,42.5 105.5,54.7 116,60.8 '/%3E %3Cpolygon class='s' points='200.4,72.8 200.4,60.6 189.9,54.6 179.3,60.6 179.3,72.8 189.9,78.9 '/%3E %3Cpolygon class='s' points='253.1,78.9 253.1,91.1 263.7,97.2 274.2,91.1 274.2,78.9 263.7,72.8 263.7,72.8 263.7,60.6 253.1,54.6 242.6,60.6 242.6,72.8 '/%3E %3Cpolygon class='s' points='453.5,72.8 453.5,60.6 443,54.6 432.4,60.6 432.4,72.8 443,78.9 '/%3E %3Cpolygon class='s' points='537.9,60.6 537.9,72.8 548.4,78.9 559,72.8 559,60.6 548.4,54.6 '/%3E %3Cpolygon class='s' points='643.4,72.8 643.4,60.6 632.8,54.6 622.3,60.6 622.3,72.8 632.8,78.9 '/%3E %3Cpolygon class='s' points='485.2,54.6 485.2,54.6 485.2,42.5 474.6,36.4 464.1,42.5 464.1,54.7 474.6,60.8 474.6,60.8 474.6,72.7 474.6,72.7 464.1,78.8 464.1,91 474.6,97.1 485.2,91 485.2,78.9 485.2,78.9 495.7,72.8 495.7,60.6 '/%3E %3C/g%3E %3C/g%3E %3C/svg%3E ");
   height: 80px;
@@ -196,4 +196,69 @@ body.dark-theme .btn-outline-secondary:hover {
   align-self: center;
 }
 
+/* секция menu*/
+#menu{
+  background-color: #f0f0f0; /* немного темнее bg-light (#f8f9fa) */
+  height: 100vh;
+  padding: 20px 40px;
+  align-items: center;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.menu-btn{
+  border: none !important;
+}
+
+.menu-btn.active,
+.menu-btn:hover {
+    background-color: purple;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .menu-card img {
+    max-width: 70%;
+    border-radius: 10px;
+  }
+
+  .menu-card {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    color: black !important;
+  }
+
+  /* фото с иконками */
+
+ .image-container{
+  position: relative;
+  overflow: hidden;
+ }
+
+.icons {
+  position: absolute; /* Дочерние элементы позиционируются относительно родительского */
+  top: 20%;
+  right: 10px; /* отступ от правого края */
+  transform: translateY(-50%);
+  display: none; /* Изначально скрываем иконки */
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.6); /* полупрозрачный фон */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: purple;
+}
 
