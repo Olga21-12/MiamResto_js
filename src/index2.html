@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miam – Restaurant Moderne</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bee7bce23a.js" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-light">
+
+<!-- HEADER -->
+<header class="border-bottom bg-light">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light" id="mainNav">
+    <div class="container">
+    <a class="navbar-brand fw-bold text-purple fs-3 me-4" href="#">Miam <span role="img" aria-label="plate">🍽️</span></a>
+
+<!-- кнопка мобильного меню -->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="d-flex w-100 justify-content-between align-items-center flex-wrap">
+    <!-- Левая часть – ссылки -->
+    <ul class="navbar-nav flex-grow-1 justify-content-between">
+      <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+      <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
+      <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+
+  <!-- Правая часть – кнопки -->
+    <div class="d-flex gap-2 ms-3">
+      <button id="bookBtnHeader" class="btn btn-outline-secondary">Book a table</button>
+      <button id="themeBtn" class="btn btn-outline-secondary">Changer de theme</button>
+    </div>
+
+  </div>
+</div>
+</div>
+  </nav>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+  <section id="menu">
+    <div>
+      <h1 class="text-center fw-bold mb-5 text-gradient">Notre MENU</h1>
+      <button>Starter</button>
+      <button>Breakfast</button>
+      <button>Lunch</button>
+      <button>Dinner</button>
+    </div>
+
+    <div>
+      <div>
+        <img src="./assets/img/menu/menu-item-1.png" alt="menu1">
+        <h5>Miam</h5>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>$10.99</p>
+      </div>
+
+      <div>
+      <div>
+        <img src="./assets/img/menu/menu-item-2.png" alt="menu1">
+        <h5>Miam</h5>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>$8.99</p>
+      </div>
+
+      <div>
+      <div>
+        <img src="./assets/img/menu/menu-item-3.png" alt="menu1">
+        <h5>Miam</h5>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>$5.99</p>
+      </div>
+
+      <div>
+      <div>
+        <img src="./assets/img/menu/menu-item-4.png" alt="menu1">
+        <h5>Miam</h5>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>$3.99</p>
+      </div>
+
+      <div>
+      <div>
+        <img src="./assets/img/menu/menu-item-5.png" alt="menu1">
+        <h5>Miam</h5>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>$15.99</p>
+      </div>
+
+      <div>
+      <div>
+        <img src="./assets/img/menu/menu-item-6.png" alt="menu1">
+        <h5>Miam</h5>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>$16.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="chefs">
+
+<div>
+  <img src="./assets/img/chefs/chefs-1.jpg" alt="chef1">
+  <h2>Poll Smith</h2>
+  <h4>Master Chef</h4>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, officiis?</p>
+</div>
+
+<div>
+  <img src="./assets/img/chefs/chefs-2.jpg" alt="chef1">
+  <h2>Emily Johnson</h2>
+  <h4>Master Chef</h4>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, officiis?</p>
+</div>
+
+<div>
+  <img src="./assets/img/chefs/chefs-3.jpg" alt="chef1">
+  <h2>John Smith</h2>
+  <h4>Master Chef</h4>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, officiis?</p>
+</div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+
+</html>

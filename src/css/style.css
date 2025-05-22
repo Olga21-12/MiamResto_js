@@ -140,3 +140,60 @@ body.dark-theme .btn-outline-secondary:hover {
   border-radius: 8px;
 }
 
+/* about2*/
+/* Светло-сиреневая карточка */
+.card-featured {
+  background-color: #bf9bd1;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Обычные белые карточки */
+.card-default {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Ховер-эффект */
+.card-featured:hover,
+.card-default:hover {
+  transform: scale(1.03);
+  box-shadow: 20px 20px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Картинка сверху */
+.icon-wrapper i {
+  font-size: 40px;
+  color: #a05cb7; /* нежно-сиреневый */
+  margin-top: 10px;
+}
+
+/* Текст немного больше и с отступами */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  padding: 0 5px;
+}
+
+/* Кнопка в первой карточке */
+.card-featured .btn {
+  border-radius: 30px;
+  align-self: center;
+}
+
+
