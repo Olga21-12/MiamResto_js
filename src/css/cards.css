@@ -1,0 +1,27 @@
+.image-container{
+  position: relative;
+  overflow: hidden;
+ }
+
+.icons {
+  position: absolute; /* Дочерние элементы позиционируются относительно родительского */
+  top: 20%;
+  right: 10px; /* отступ от правого края */
+  transform: translateY(-50%);
+  display: none; /* Изначально скрываем иконки */
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.6); /* полупрозрачный фон */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: purple;
+}

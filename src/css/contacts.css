@@ -1,0 +1,107 @@
+#contact {
+  padding: 40px;
+  background-color: #f8f8f8;
+  font-family: sans-serif;
+  height: auto;
+}
+
+#contact h1 {
+  background: linear-gradient(to right, #800080, #dda0dd); /* градиент сиреневого цвета */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* ------- RESERVE ------- */
+.reserve {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  height: 90vh;
+}
+
+.reserve img {
+  max-height: 80%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* ------- FORM ------- */
+.form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form .row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="datetime-local"],
+.form input[type="number"] {
+  flex: 1;
+  min-width: 140px;
+}
+
+.form button {
+  align-self: flex-start;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* ------- MAP ------- */
+.map-container {
+  margin: 40px 0;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.card_contact {
+  background-color: #c2c0c0;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 11px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card_contact i {
+  font-size: 32px;
+  color: #884d9c;
+  margin-bottom: 10px;
+}
+
+.card_contact:hover {
+  transform: scale(1.03);
+  box-shadow: 20px 20px 16px rgba(0, 0, 0, 0.1);
+}
+

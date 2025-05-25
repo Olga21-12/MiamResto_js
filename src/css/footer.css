@@ -1,0 +1,73 @@
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 50px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: auto;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 8px;
+}
+
+.footer-nav a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #6b2780;
+  text-decoration: underline;
+}
+
+.footer-column p {
+  margin: 8px 0;
+}
+
+.footer-column i {
+  margin-right: 8px;
+  color: #a05cb7;
+}
+
+/* Соцсети в линию 
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #ccc;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+/* Светлая линия 
+.footer-divider {
+  margin: 30px auto 15px;
+  width: 90%;
+  border: 0;
+  height: 1px;
+  background-color: #666;
+}
+*/

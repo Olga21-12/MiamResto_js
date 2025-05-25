@@ -1,0 +1,24 @@
+
+body{
+  font-family: 'Karla', sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+ /* font-family: 'Pirata One', sans-serif !important;*/
+ font-size: 2.5rem;
+}
+
+.text-purple {
+  color: purple !important;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+body.bg-light .nav-link:hover{
+  color: purple;
+  text-decoration: underline;
+}

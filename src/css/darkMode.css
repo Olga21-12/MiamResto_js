@@ -1,0 +1,27 @@
+body.dark-theme #home{
+  background-color: #212529;
+  color: white;
+}
+
+body.dark-theme .navbar {
+  background-color: #343a40 !important;
+}
+
+body.dark-theme .nav-link {
+  color: #ddd !important;
+}
+
+body.dark-theme .nav-link:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+body.dark-theme .btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+
+body.dark-theme .btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #212529;
+}

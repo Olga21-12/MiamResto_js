@@ -1,0 +1,39 @@
+
+#home{
+  background-color: #f0f0f0; /* немного темнее bg-light (#f8f9fa) */
+  height: 100vh;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+#home .col-md-6:first-child {
+  padding-right: 30px;
+  padding-top: 10px; /* поднимаем текст */
+}
+
+#home h1 {
+  background: linear-gradient(to right, #800080, #dda0dd); /* градиент сиреневого цвета */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#home p {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+#home .btn {
+  margin-right: 10px;
+}
+
+#home img {
+  
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
