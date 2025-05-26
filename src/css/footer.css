@@ -1,14 +1,17 @@
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
-  padding: 0 50px;
+  max-width: 1200px;             
+  margin: 0 auto;                
+  padding: 0 20px;
 }
 
 .footer-column {
   flex: 1;
   min-width: auto;
+  text-align: center; 
 }
 
 .footer-column h4 {
@@ -45,15 +48,8 @@
   color: #a05cb7;
 }
 
-/* Соцсети в линию 
-.social-icons {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-}
-
 .social-icons a {
-  color: #ccc;
+  
   font-size: 24px;
   transition: color 0.3s;
 }
@@ -61,13 +57,3 @@
 .social-icons a:hover {
   color: #fff;
 }
-
-/* Светлая линия 
-.footer-divider {
-  margin: 30px auto 15px;
-  width: 90%;
-  border: 0;
-  height: 1px;
-  background-color: #666;
-}
-*/
