@@ -59,7 +59,7 @@
     </ul>
 
   <!-- Правая часть – кнопки -->
-    <div class="d-flex gap-2 ms-3">
+    <div class="d-flex flex-column flex-md-row gap-2 ms-0 ms-md-3">
       <button id="bookBtnHeader" class="btn btn-outline-secondary">Book a table</button>
       <button id="themeBtn" class="btn btn-outline-secondary">Changer de theme</button>
     </div>
@@ -111,14 +111,14 @@
   <section id="home">
     <div class="container-fluid">
     <div class="row align-items-center">
-      <div class="col-md-6">
+      <div class="col-12 col-md-6">
         <h1>ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam reprehenderit beatae, laudantium quas, hic eaque ducimus fugiat explicabo.</p>
         <button id="bookBtnHome" class="btn btn-outline-secondary">Book a table</button>
         <button class="btn btn-outline-secondary"> <i class="fa-brands fa-youtube"></i> Watch Video</button>
       </div>
-      <div class="col-md-6">
-        <img src="./assets/img/hero-img.png" class="img-fluid" style="max-height: 550px;" alt="Hero Image">
+      <div class="col-12 col-md-6">
+        <img src="./assets/img/hero-img.png" class="img-fluid w-100 mt-2" style="max-height: 550px;" alt="Hero Image">
       </div>
     </div>
     </div>
@@ -133,7 +133,7 @@
   <h1 class="text-center fw-bold mb-5 text-gradient">About us</h1>
     <div class="row align-items-stretch">
       
-      <div class="col-md-6 position-relative p-0 overflow-hidden">
+      <div class="col-12 col-md-6 position-relative p-0 overflow-hidden">
         <div class="about-img-wrapper h-100 w-100 position-relative">
         <img src="./assets/img/about.jpg" class="img-cover w-100 h-100 rounded" alt="About Image">
           <div class="about-overlay-box position-absolute text-center bg-white text-dark py-3">
@@ -143,7 +143,7 @@
         </div>
       </div>
 
-      <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center p-4">
         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, praesentium!</p>
           <ul>
@@ -153,7 +153,7 @@
           </ul>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, praesentium!</p>
         </div>
-        <img src="./assets/img/about-2.jpg" class="img-fluid mt-3 rounded" alt="AboutImage">
+        <img src="./assets/img/about-2.jpg" class="img-fluid mt-3 rounded w-100" alt="AboutImage">
       </div>
 
     </div>
@@ -219,7 +219,7 @@
 <section id="menu" class="py-5">
   <div class="text-center mb-4">
     <h1 class="text-center fw-bold mb-4 text-gradient">Notre MENU</h1>
-    <div class="btn-group gap-5" role="group">
+    <div class="d-flex flex-wrap justify-content-center gap-2 gap-md-4" role="group">
       <button class="btn btn-outline-secondary menu-btn active" data-category="starter">Starter</button>
       <button class="btn btn-outline-secondary menu-btn" data-category="breakfast">Breakfast</button>
       <button class="btn btn-outline-secondary menu-btn" data-category="lunch">Lunch</button>
