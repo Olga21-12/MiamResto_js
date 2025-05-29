@@ -1,5 +1,5 @@
 #contact {
-  padding: 40px;
+  padding: 2rem 1rem;
   background-color: #f8f8f8;
   font-family: sans-serif;
   height: auto;
@@ -16,11 +16,10 @@
 /* ------- RESERVE ------- */
 .reserve {
   display: flex;
-  gap: 40px;
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px 0px;
   height: 90vh;
 }
 
@@ -28,6 +27,10 @@
   max-height: 80%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.reserve .form {
+  flex: 1 1 300px;
 }
 
 /* ------- FORM ------- */
@@ -74,7 +77,7 @@
 
 /* ------- MAP ------- */
 .map-container {
-  margin: 40px 0;
+  width: 100%;
 }
 
 .contact-info {
@@ -105,3 +108,29 @@
   box-shadow: 20px 20px 16px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+  .reserve {
+    height: auto;
+  }
+  .reserve img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .map-container iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card_contact {
+    width: 80%; /* Занимает всю доступную ширину */
+    padding: 15px;
+    box-sizing: border-box;
+    word-wrap: break-word; /* Длинные слова переносятся */
+    overflow-wrap: break-word; /* Современный аналог */
+  }
+  .contact-info {
+    grid-template-columns: 2fr; /* одна колонка вместо двух */
+  }
+}

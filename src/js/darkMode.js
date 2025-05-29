@@ -9,10 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuSection = document.getElementById("menu");
     const darkSections = [homeSection, menuSection];
 
-    //const hexDivider = document.querySelector(".hex-divider");
-    //const hexDivider2 = document.querySelector(".hex-divider2");
-    //const hexDivider3 = document.querySelector(".hex-divider3");
-
     const hexDividers = document.querySelectorAll(".hex-divider-common");
 
     let darkMode = false;
